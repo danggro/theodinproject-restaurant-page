@@ -1,0 +1,41 @@
+@font-face {
+  font-family: Roboto;
+  src: url('../assets/font/Roboto/Roboto-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url('../assets/font/Roboto/Roboto-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url('../assets/font/Roboto/Roboto-Italic.ttf');
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: PlayfairDisplay;
+  src: url('../assets/font/PlayfairDisplay/PlayfairDisplay-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: PlayfairDisplay;
+  src: url('../assets/font/PlayfairDisplay/PlayfairDisplay-Medium.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: PlayfairDisplay;
+  src: url('../assets/font/PlayfairDisplay/PlayfairDisplay-SemiBold.ttf');
+  font-weight: 600;
+  font-style: normal;
+}

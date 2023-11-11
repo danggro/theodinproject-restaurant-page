@@ -1,0 +1,22 @@
+:root {
+  --primary: #486a48;
+  --secondary: #a6cf98;
+  --tertiary: #fa7070;
+  --white: #f9fff5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  background-color: var(--secondary);
+}
+
+#menu,
+#contact {
+  display: none;
+}

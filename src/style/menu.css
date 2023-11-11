@@ -1,0 +1,53 @@
+#menu {
+  margin: 20px 10%;
+  color: var(--primary);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#menu > h1 {
+  background-color: var(--white);
+  padding: 30px;
+  box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.4);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#menu > div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.card-menu {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.4);
+  padding: 30px;
+  padding-bottom: 40px;
+}
+
+.card-menu img {
+  width: max(30px, 100%);
+  object-fit: cover;
+  aspect-ratio: 1;
+  margin-bottom: 10px;
+}
+
+.card-menu > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-menu h3 {
+  font-size: 1.2rem;
+  width: 60%;
+  font-weight: normal;
+}
+
+.card-menu span {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
